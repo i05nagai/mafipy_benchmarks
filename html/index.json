@@ -1,0 +1,123 @@
+{
+    "benchmarks": {
+        "bull_spread_qunato_cms.time_corr_forward_fx": {
+            "code": "def time_corr_forward_fx():\n    corr_forward_fx = -1.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    corr_forward_fx = 0.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    corr_forward_fx = 1.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n",
+            "goal_time": 2.0,
+            "name": "bull_spread_qunato_cms.time_corr_forward_fx",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "bull_spread_qunato_cms.time_corr_forward_fx",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "bull_spread_qunato_cms.time_vol_foward_fx": {
+            "code": "def time_vol_foward_fx():\n    vol_forward_fx = 0.05\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_forward_fx = 0.5\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_forward_fx = 1.0\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n",
+            "goal_time": 2.0,
+            "name": "bull_spread_qunato_cms.time_vol_foward_fx",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "bull_spread_qunato_cms.time_vol_foward_fx",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        },
+        "bull_spread_qunato_cms.time_vol_swap_rate": {
+            "code": "def time_vol_swap_rate():\n    vol_swap_rate = 0.05\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_swap_rate = 0.5\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_swap_rate = 1.0\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n",
+            "goal_time": 2.0,
+            "name": "bull_spread_qunato_cms.time_vol_swap_rate",
+            "number": 0,
+            "param_names": [],
+            "params": [],
+            "pretty_name": "bull_spread_qunato_cms.time_vol_swap_rate",
+            "repeat": 0,
+            "timeout": 60.0,
+            "type": "time",
+            "unit": "seconds"
+        }
+    },
+    "graph_param_list": [
+        {
+            "arch": "x86_64",
+            "branch": "master",
+            "cpu": "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz",
+            "machine": "admins-MacBook-Air-2.local",
+            "numpy": "1.11",
+            "os": "Darwin 15.4.0",
+            "python": "",
+            "ram": "4294967296",
+            "scipy": "0.18"
+        }
+    ],
+    "hash_length": 8,
+    "machines": {
+        "admins-MacBook-Air-2.local": {
+            "arch": "x86_64",
+            "cpu": "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz",
+            "machine": "admins-MacBook-Air-2.local",
+            "os": "Darwin 15.4.0",
+            "ram": "4294967296",
+            "version": 1
+        }
+    },
+    "pages": [
+        [
+            "",
+            "Grid view",
+            "Display as a agrid"
+        ],
+        [
+            "summarylist",
+            "List view",
+            "Display as a list"
+        ],
+        [
+            "regressions",
+            "Show regressions",
+            "Display information about recent regressions"
+        ]
+    ],
+    "params": {
+        "arch": [
+            "x86_64"
+        ],
+        "branch": [
+            "master"
+        ],
+        "cpu": [
+            "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz"
+        ],
+        "machine": [
+            "admins-MacBook-Air-2.local"
+        ],
+        "numpy": [
+            "1.11"
+        ],
+        "os": [
+            "Darwin 15.4.0"
+        ],
+        "python": [
+            ""
+        ],
+        "ram": [
+            "4294967296"
+        ],
+        "scipy": [
+            "0.18"
+        ]
+    },
+    "project": "mafipy",
+    "project_url": "",
+    "revision_to_date": {
+        "226": 1484312745000
+    },
+    "revision_to_hash": {
+        "226": "11d0c26ad2593093b6d1c97e50c7f07fdec72ca4"
+    },
+    "show_commit_url": "#",
+    "tags": {}
+}
