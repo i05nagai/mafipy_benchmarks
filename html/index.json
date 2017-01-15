@@ -44,23 +44,23 @@
         {
             "arch": "x86_64",
             "branch": "master",
-            "cpu": "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz",
-            "machine": "admins-MacBook-Air-2.local",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+            "machine": "circleci_vm",
             "numpy": "1.11",
-            "os": "Darwin 15.4.0",
+            "os": "Ubuntu 14.04",
             "python": "",
-            "ram": "4294967296",
+            "ram": "251902864",
             "scipy": "0.18"
         }
     ],
     "hash_length": 8,
     "machines": {
-        "admins-MacBook-Air-2.local": {
+        "circleci_vm": {
             "arch": "x86_64",
-            "cpu": "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz",
-            "machine": "admins-MacBook-Air-2.local",
-            "os": "Darwin 15.4.0",
-            "ram": "4294967296",
+            "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+            "machine": "circleci_vm",
+            "os": "Ubuntu 14.04",
+            "ram": "251902864",
             "version": 1
         }
     },
@@ -89,22 +89,22 @@
             "master"
         ],
         "cpu": [
-            "Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz"
+            "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz"
         ],
         "machine": [
-            "admins-MacBook-Air-2.local"
+            "circleci_vm"
         ],
         "numpy": [
             "1.11"
         ],
         "os": [
-            "Darwin 15.4.0"
+            "Ubuntu 14.04"
         ],
         "python": [
             ""
         ],
         "ram": [
-            "4294967296"
+            "251902864"
         ],
         "scipy": [
             "0.18"
@@ -113,10 +113,40 @@
     "project": "mafipy",
     "project_url": "",
     "revision_to_date": {
-        "226": 1484312745000
+        "0": 1483774157000,
+        "2": 1483775366000,
+        "5": 1483875964000,
+        "9": 1483890198000,
+        "11": 1483929002000,
+        "13": 1484056161000,
+        "15": 1484057661000,
+        "17": 1484143748000,
+        "22": 1484219127000,
+        "26": 1484232665000,
+        "29": 1484312745000,
+        "44": 1484457415000,
+        "46": 1484459570000,
+        "49": 1484464159000,
+        "51": 1484466067000,
+        "54": 1484470256000
     },
     "revision_to_hash": {
-        "226": "11d0c26ad2593093b6d1c97e50c7f07fdec72ca4"
+        "0": "a09a695f413ec5976a35b8a5483832afecedd0fc",
+        "2": "994fec8e0c6a73f1ba70b34da2d2f36636cc3f17",
+        "5": "25d982b68d438463ee3558aa9fb44c4b549cc605",
+        "9": "c8dca0361367a9f1483f451e0f5555240644ca47",
+        "11": "be2669cd069d6bf32aedad9455446e00e8221a51",
+        "13": "cf728079f3bfd9a6fd1ae523e075e364dfc36520",
+        "15": "eb9d7c0aa3b04cef81fd09b1c1a72690e4591443",
+        "17": "8e02b966a5acba6424022c1bae645d8043d6e680",
+        "22": "a03bbc88d20122c2570b3192cc7676cad5ca71d7",
+        "26": "a47a3a058da1439f7d00f3b53b8a9e05f6b7f45c",
+        "29": "11d0c26ad2593093b6d1c97e50c7f07fdec72ca4",
+        "44": "db055568c95935534d94b0e77f0a0b10680c9b58",
+        "46": "b2a61831bb94fd37f84e7c13250b735f16beac29",
+        "49": "d4b70e49535f576802f8d7dbf188c3d469e2896e",
+        "51": "e6c8d9eca46513d8bb99bfe7bf74f49661202e89",
+        "54": "17263b76df8fd76f7e07aab2a6a19e4a1a6649d1"
     },
     "show_commit_url": "#",
     "tags": {}

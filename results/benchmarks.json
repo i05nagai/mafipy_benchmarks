@@ -1,0 +1,42 @@
+{
+    "bull_spread_qunato_cms.time_corr_forward_fx": {
+        "code": "def time_corr_forward_fx():\n    corr_forward_fx = -1.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    corr_forward_fx = 0.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    corr_forward_fx = 1.0\n    params = gen_params(\"corr_forward_fx\", corr_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n",
+        "goal_time": 2.0,
+        "name": "bull_spread_qunato_cms.time_corr_forward_fx",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "pretty_name": "bull_spread_qunato_cms.time_corr_forward_fx",
+        "repeat": 0,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "bull_spread_qunato_cms.time_vol_foward_fx": {
+        "code": "def time_vol_foward_fx():\n    vol_forward_fx = 0.05\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_forward_fx = 0.5\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_forward_fx = 1.0\n    params = gen_params(\"vol_forward_fx\", vol_forward_fx)\n    linear_annuity_bull_spread_pricer(**params)\n",
+        "goal_time": 2.0,
+        "name": "bull_spread_qunato_cms.time_vol_foward_fx",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "pretty_name": "bull_spread_qunato_cms.time_vol_foward_fx",
+        "repeat": 0,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "bull_spread_qunato_cms.time_vol_swap_rate": {
+        "code": "def time_vol_swap_rate():\n    vol_swap_rate = 0.05\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_swap_rate = 0.5\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n    vol_swap_rate = 1.0\n    params = gen_params(\"vol_swap_rate\", vol_swap_rate)\n    linear_annuity_bull_spread_pricer(**params)\n",
+        "goal_time": 2.0,
+        "name": "bull_spread_qunato_cms.time_vol_swap_rate",
+        "number": 0,
+        "param_names": [],
+        "params": [],
+        "pretty_name": "bull_spread_qunato_cms.time_vol_swap_rate",
+        "repeat": 0,
+        "timeout": 60.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "version": 1
+}
