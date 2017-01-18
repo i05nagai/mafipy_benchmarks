@@ -134,7 +134,8 @@
         "62": 1484608131000,
         "64": 1484651197000,
         "68": 1484746106000,
-        "70": 1484749490000
+        "70": 1484749490000,
+        "72": 1484781333000
     },
     "revision_to_hash": {
         "0": "a09a695f413ec5976a35b8a5483832afecedd0fc",
@@ -158,7 +159,8 @@
         "62": "2365f0f16e745e93cb46e3d54064b6ba87c228a5",
         "64": "5bc8e7fa46e06ac40ceba55f879a2d762ce5ac3a",
         "68": "ce5f6197c2724795d0824c5ac34c6757db513e53",
-        "70": "a3f3facab318cc0e610539525bfdb41744e9b616"
+        "70": "a3f3facab318cc0e610539525bfdb41744e9b616",
+        "72": "718905cd9c7dffb96a1a2a7cdd3a1a3d560f8dcc"
     },
     "show_commit_url": "https://github.com/i05nagai/mafipy/commit/",
     "tags": {}

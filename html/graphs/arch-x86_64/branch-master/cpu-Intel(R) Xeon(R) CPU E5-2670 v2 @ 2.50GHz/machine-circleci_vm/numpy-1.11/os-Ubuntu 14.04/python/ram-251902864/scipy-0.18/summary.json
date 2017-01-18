@@ -2,9 +2,9 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.019738343333333224,
-        "last_rev": 70,
-        "last_value": 1.3170591489999999,
+        "last_err": 0.019258736818181688,
+        "last_rev": 72,
+        "last_value": 1.314374953,
         "name": "bull_spread_qunato_cms.time_corr_forward_fx",
         "pretty_name": "bull_spread_qunato_cms.time_corr_forward_fx",
         "prev_value": null
@@ -12,9 +12,9 @@
     {
         "change_rev": null,
         "idx": null,
-        "last_err": 0.031323122190476206,
-        "last_rev": 70,
-        "last_value": 1.415620107,
+        "last_err": 0.031983810681818214,
+        "last_rev": 72,
+        "last_value": 1.416252579,
         "name": "bull_spread_qunato_cms.time_vol_foward_fx",
         "pretty_name": "bull_spread_qunato_cms.time_vol_foward_fx",
         "prev_value": null
@@ -25,9 +25,9 @@
             27
         ],
         "idx": null,
-        "last_err": 0.04396801808333325,
-        "last_rev": 70,
-        "last_value": 3.3039377405000003,
+        "last_err": 0.04547609184615375,
+        "last_rev": 72,
+        "last_value": 3.304519147,
         "name": "bull_spread_qunato_cms.time_vol_swap_rate",
         "pretty_name": "bull_spread_qunato_cms.time_vol_swap_rate",
         "prev_value": 9.015497699999997
