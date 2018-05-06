@@ -6,22 +6,22 @@
         "bull_spread_qunato_cms.time_vol_foward_fx": 1484470372000,
         "bull_spread_qunato_cms.time_vol_swap_rate": 1484470382000
     },
-    "env_name": "virtualenv-py-numpy1.11-scipy0.18",
+    "env_name": "virtualenv-py-numpy1.14.3-scipy1.1.0",
     "params": {
         "arch": "x86_64",
         "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
         "machine": "circleci_vm",
-        "numpy": "1.11",
+        "numpy": "1.14.3",
         "os": "Ubuntu 14.04",
         "python": "",
         "ram": "251902864",
-        "scipy": "0.18"
+        "scipy": "1.1.0"
     },
     "profiles": {},
     "python": "",
     "requirements": {
-        "numpy": "1.11",
-        "scipy": "0.18"
+        "numpy": "1.14.3",
+        "scipy": "1.1.0"
     },
     "results": {
         "bull_spread_qunato_cms.time_corr_forward_fx": 1.311690757,
