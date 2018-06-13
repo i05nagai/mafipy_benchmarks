@@ -42,7 +42,7 @@
     },
     "graph_param_list": [
         {
-            "Cython": null,
+            "Cython": "0.28.2",
             "arch": "x86_64",
             "branch": "master",
             "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
@@ -54,7 +54,7 @@
             "scipy": "1.1.0"
         },
         {
-            "Cython": "0.28.2",
+            "Cython": null,
             "arch": "x86_64",
             "branch": "master",
             "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
@@ -177,7 +177,10 @@
         "357": 1528863747000,
         "358": 1528863772000,
         "359": 1528863809000,
-        "360": 1528863845000
+        "360": 1528863845000,
+        "361": 1528865808000,
+        "362": 1528865869000,
+        "363": 1528887714000
     },
     "revision_to_hash": {
         "181": "a09a695f413ec5976a35b8a5483832afecedd0fc",
@@ -227,7 +230,10 @@
         "357": "c2426ea97d3c11ca787d72d205ad37b6056fec08",
         "358": "f4d77a9171458617559e9fa0cf799c471f2fbe4b",
         "359": "595ddb63c27fa7496d2b42cd05570bb71c752b62",
-        "360": "aaee5f7d4d11224144938b169e9232cd1f321f4c"
+        "360": "aaee5f7d4d11224144938b169e9232cd1f321f4c",
+        "361": "a18eb00bc88fde7dbe7c2cfbb120f99902ebf0d7",
+        "362": "c82d2acc68503744f637b8b2cf15c3b55f0062d8",
+        "363": "4b10ae58a3aa6b8d6f9096f8f85ed06d4f88973a"
     },
     "show_commit_url": "https://github.com/i05nagai/mafipy/commit/",
     "tags": {}
