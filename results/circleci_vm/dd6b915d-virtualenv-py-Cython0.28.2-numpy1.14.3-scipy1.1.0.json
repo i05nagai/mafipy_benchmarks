@@ -1,0 +1,39 @@
+{
+    "commit_hash": "dd6b915d5f9b2f19a0350cf358e35f01a2e4d8e8",
+    "date": 1482178693000,
+    "ended_at": {
+        "bull_spread_qunato_cms.time_corr_forward_fx": 1529075417000,
+        "bull_spread_qunato_cms.time_vol_foward_fx": 1529075422000,
+        "bull_spread_qunato_cms.time_vol_swap_rate": 1529075435000
+    },
+    "env_name": "virtualenv-py-Cython0.28.2-numpy1.14.3-scipy1.1.0",
+    "params": {
+        "Cython": "0.28.2",
+        "arch": "x86_64",
+        "cpu": "Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz",
+        "machine": "circleci_vm",
+        "numpy": "1.14.3",
+        "os": "Ubuntu 14.04",
+        "python": "",
+        "ram": "251902864",
+        "scipy": "1.1.0"
+    },
+    "profiles": {},
+    "python": "",
+    "requirements": {
+        "Cython": "0.28.2",
+        "numpy": "1.14.3",
+        "scipy": "1.1.0"
+    },
+    "results": {
+        "bull_spread_qunato_cms.time_corr_forward_fx": 1.611860534,
+        "bull_spread_qunato_cms.time_vol_foward_fx": 1.7260407310000003,
+        "bull_spread_qunato_cms.time_vol_swap_rate": 4.031867555999999
+    },
+    "started_at": {
+        "bull_spread_qunato_cms.time_corr_forward_fx": 1529075411000,
+        "bull_spread_qunato_cms.time_vol_foward_fx": 1529075417000,
+        "bull_spread_qunato_cms.time_vol_swap_rate": 1529075422000
+    },
+    "version": 1
+}
